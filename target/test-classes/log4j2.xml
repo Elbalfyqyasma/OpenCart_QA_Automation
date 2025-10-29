@@ -30,7 +30,7 @@
 		<!-- Root logger controls the overall logging level for the project -->
 
 		<Root level="Debug">
-			<AppenderRef ref="Console"/> 
+			<!-- <AppenderRef ref="Console"/> -->
 			<AppenderRef ref="File" />
 		</Root>
 	</Loggers>

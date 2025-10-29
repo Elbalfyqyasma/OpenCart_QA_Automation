@@ -1,25 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-28T18:02:30 WEST" name="Default suite" finished-at="2025-10-28T18:02:45 WEST" duration-ms="14782">
+  <suite started-at="2025-10-28T21:22:35 WEST" name="Cross Browser Suite" finished-at="2025-10-28T21:27:38 WEST" duration-ms="302935">
     <groups>
     </groups>
-    <test started-at="2025-10-28T18:02:30 WEST" name="Default test" finished-at="2025-10-28T18:02:45 WEST" duration-ms="14782">
+    <test started-at="2025-10-28T21:22:35 WEST" name="Edge Test" finished-at="2025-10-28T21:22:54 WEST" duration-ms="18740">
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC001_AccountRegistrationTest@13c3c1e1]" started-at="2025-10-28T18:02:30 WEST" name="setup" finished-at="2025-10-28T18:02:39 WEST" duration-ms="8424" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@6bb75258]" started-at="2025-10-28T21:22:36 WEST" name="setup" finished-at="2025-10-28T21:22:54 WEST" duration-ms="18308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@13c3c1e1]" started-at="2025-10-28T18:02:39 WEST" name="verify_account_registration" finished-at="2025-10-28T18:02:45 WEST" duration-ms="5950" status="PASS">
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@6bb75258]" started-at="2025-10-28T21:22:54 WEST" name="verify_account_registration" finished-at="2025-10-28T21:22:54 WEST" duration-ms="73" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@13c3c1e1]" started-at="2025-10-28T18:02:45 WEST" name="tearDown" finished-at="2025-10-28T18:02:45 WEST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@6bb75258]" started-at="2025-10-28T21:22:54 WEST" name="tearDown" finished-at="2025-10-28T21:22:54 WEST" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Edge Test -->
+    <test started-at="2025-10-28T21:22:35 WEST" name="Chrome Test" finished-at="2025-10-28T21:23:35 WEST" duration-ms="59903">
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@5b40ceb]" started-at="2025-10-28T21:22:36 WEST" name="setup" finished-at="2025-10-28T21:23:29 WEST" duration-ms="53912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5b40ceb]" started-at="2025-10-28T21:23:29 WEST" name="verify_account_registration" finished-at="2025-10-28T21:23:35 WEST" duration-ms="5647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5b40ceb]" started-at="2025-10-28T21:23:35 WEST" name="tearDown" finished-at="2025-10-28T21:23:35 WEST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-10-28T21:22:35 WEST" name="Firefox Test" finished-at="2025-10-28T21:27:38 WEST" duration-ms="302935">
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@5b04476e]" started-at="2025-10-28T21:22:36 WEST" name="setup" finished-at="2025-10-28T21:27:32 WEST" duration-ms="296503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5b04476e]" started-at="2025-10-28T21:27:32 WEST" name="verify_account_registration" finished-at="2025-10-28T21:27:36 WEST" duration-ms="3802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5b04476e]" started-at="2025-10-28T21:27:36 WEST" name="tearDown" finished-at="2025-10-28T21:27:38 WEST" duration-ms="2529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Cross Browser Suite -->
 </testng-results>
