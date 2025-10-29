@@ -19,7 +19,7 @@ import org.testng.annotations.Parameters;
 
 public class BaseClass {
 
-	public WebDriver driver; 
+	public WebDriver driver;
 	public Logger logger; // Log4j
 	public Properties p;
 
@@ -29,17 +29,19 @@ public class BaseClass {
 	/**
 	 * Method annotated with @BeforeClass runs once before all test methods in this
 	 * class. Typically used to initialize WebDriver and open the application URL.
-	 * @throws FileNotFoundException 
+	 * 
+	 * @throws FileNotFoundException
 	 */
 	@BeforeClass
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException {
-		
-        //Loading config.properties file
-		FileReader file = new FileReader("./src//resources//config.properties");
-		p= new Properties();
+
+		// loading properties file
+		FileReader file = new FileReader(".//src//test//resources//config.properties");
+		p = new Properties();
 		p.load(file);
-		
+
+		// loading log4j file
 		logger = LogManager.getLogger(this.getClass());
 
 		switch (br.toLowerCase()) {
@@ -63,7 +65,7 @@ public class BaseClass {
 
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get(p.getProperty("appUrl2"));
+		driver.get(p.getProperty("appUrl"));
 		driver.manage().window().maximize();
 
 	}

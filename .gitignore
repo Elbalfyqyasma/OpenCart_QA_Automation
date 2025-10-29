@@ -1,0 +1,19 @@
+# Ignore TestNG output
+test-output/
+
+# Ignore Maven build output
+target/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore screenshots
+screenshots/
+
+# Eclipse specific
+.classpath
+.project
+.settings/
