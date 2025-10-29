@@ -526,3 +526,73 @@
 2025-10-29 15:26:11 INFO  TC003_LoginDDT:63 - **** Finished TC003_LoginDDT *****
 2025-10-29 15:26:11 INFO  TC003_LoginDDT:23 - **** Starting TC003_LoginDDT *****
 2025-10-29 15:26:18 INFO  TC003_LoginDDT:63 - **** Finished TC003_LoginDDT *****
+2025-10-29 16:19:31 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\AppData\Local\Temp\testng-eclipse--433412265\testng-customsuite.xml"
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 22 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-10-29 16:19:31 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\AppData\Local\Temp\testng-eclipse--433412265\testng-customsuite.xml
+
+2025-10-29 16:19:31 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-10-29 16:19:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@a486d78: 73 ms
+2025-10-29 16:19:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@7caa550: 21 ms
+2025-10-29 16:19:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@355e34c7: 13 ms
+2025-10-29 16:19:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1b28f282: 12 ms
+2025-10-29 16:19:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4940809c: 8 ms
+2025-10-29 16:19:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@16423501: 0 ms
+2025-10-29 16:52:18 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpenCartV121\master.xml"
+2025-10-29 16:52:19 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\OpenCartV121\master.xml
+
+2025-10-29 16:52:41 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpenCartV121\master.xml"
+2025-10-29 16:52:41 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\OpenCartV121\master.xml
+
+2025-10-29 16:53:28 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpenCartV121\master.xml"
+2025-10-29 16:53:28 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\OpenCartV121\master.xml
+
+2025-10-29 16:56:04 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpenCartV121\master.xml"
+2025-10-29 16:56:05 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\OpenCartV121\master.xml
+
+2025-10-29 16:56:14 INFO  TC001_AccountRegistrationTest:22 - **** Starting TC001_AccountRegistrationTest ****
+2025-10-29 16:56:14 INFO  TC001_AccountRegistrationTest:27 - Clicked on MyAccount Link
+2025-10-29 16:56:15 INFO  TC001_AccountRegistrationTest:29 - Clicked on Register Link
+2025-10-29 16:56:15 INFO  TC001_AccountRegistrationTest:33 - Providing customer details...
+2025-10-29 16:56:17 INFO  TC001_AccountRegistrationTest:44 - Validating expected message...
+2025-10-29 16:56:17 INFO  TC001_AccountRegistrationTest:62 - **** Finished TC001_AccountRegistrationTest ****
+2025-10-29 16:56:28 INFO  TC002_LoginTest:17 - **** Starting TC_002_LoginTest  ****
+2025-10-29 16:56:28 DEBUG TC002_LoginTest:18 - capturing application debug logs....
+2025-10-29 16:56:28 INFO  TC002_LoginTest:24 - clicked on myaccount link on the home page..
+2025-10-29 16:56:28 INFO  TC002_LoginTest:26 - clicked on login link under myaccount..
+2025-10-29 16:56:28 INFO  TC002_LoginTest:30 - Entering valid email and password..
+2025-10-29 16:56:30 INFO  TC002_LoginTest:34 - clicked on ligin button..
+2025-10-29 16:56:30 INFO  TC002_LoginTest:48 - **** Finished TC_002_LoginTest  ****

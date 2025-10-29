@@ -16,6 +16,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 public class BaseClass {
 
@@ -32,7 +33,7 @@ public class BaseClass {
 	 * 
 	 * @throws FileNotFoundException
 	 */
-	@BeforeClass
+	@BeforeClass(groups={"sanity","Master","Regression","Datadriven"})
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException {
 
